@@ -1,6 +1,5 @@
 function calcularPropinas() {
-    const monto =
-    parseFloat(document.getElementById("monto").value);
+    const monto = parseFloat(document.getElementById("monto").value);
     const porcentaje = parseFloat(document.getElementById("porcentaje").value);
 
     if (isNaN(monto) || isNaN(porcentaje)) {
